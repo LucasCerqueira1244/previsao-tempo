@@ -1,0 +1,85 @@
+🌤️ App de Previsão do Tempo (React Native)
+
+Aplicativo desenvolvido em React Native que permite pesquisar cidades com autocomplete usando a API de Geocoding do OpenWeather, exibindo clima atual com temperatura, descrição e ícone.
+
+📱 Interface do Aplicativo
+🔍 Tela de busca com autocomplete
+
+🌤️ Resultado da previsão do tempo
+
+📱 Funcionalidades
+
+🔎 Busca de cidades com autocomplete
+
+📍 Seleção de cidade e exibição de estado/país
+
+🌡️ Clima atual usando a API de Weather
+
+🌥️ Ícone oficial do clima
+
+🎨 Interface simples e intuitiva
+
+🚀 Tecnologias Utilizadas
+
+React Native
+
+Expo
+
+OpenWeather API
+
+MaterialCommunityIcons
+
+Fetch API
+
+React Hooks
+
+📦 Instalação
+
+Clone o repositório:
+
+git clone https://github.com/LucasCerqueira1244/previsao-tempo.git
+cd previsao-tempo
+
+
+Instale as dependências:
+
+npm install
+
+
+Ou:
+
+yarn install
+
+🔑 Configuração da API Key
+
+Crie um arquivo .env na raiz do projeto com sua chave do OpenWeather:
+
+OPENWEATHER_API_KEY=SUA_CHAVE_AQUI
+
+
+Certifique-se de ter o pacote:
+
+npm install react-native-dotenv
+
+▶️ Executando o aplicativo
+npx expo start
+
+
+Abra o aplicativo Expo Go no celular ou use um emulador.
+
+🌐 Endpoints utilizados
+🔍 Autocomplete (Geocoding API)
+http://api.openweathermap.org/geo/1.0/direct?q=NOME&limit=5&appid=SUA_KEY
+
+🌦️ Clima atual
+https://api.openweathermap.org/data/2.5/weather?lat=LAT&lon=LON&appid=SUA_KEY&lang=pt_br&units=metric
+
+🛠️ Melhorias Futuras
+
+Histórico de cidades pesquisadas
+
+Favoritar cidades
+
+Previsão para 5 dias
+
+Modo escuro
